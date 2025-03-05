@@ -9,8 +9,8 @@ A menu-driven Java program that simulates a deck of 52 playing cards. Supports o
 - `createDeck()` - initializes a deck of 52 cards
 - `printDeck()` - displays all cards
 - `printCard()` - prints a specific card
-- `sameCard()` - checks if two cards belong to the same suit
-- `compareCard()` - compares two cards based on rank
+- `sameSuit()` - checks if two cards belong to the same suit
+- `sameRank()` - compares two cards based on rank
 - `findCard()` - searches for a specific card
 - `dealCard()` - prints 5 random cards
 - `shuffleDeck()` - randomizes the deck
