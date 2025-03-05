@@ -7,4 +7,13 @@ public class Card {
         this.suit = suit;
         this.rank = rank;
     }
+
+    // getters and setters
+    public String getSuit() {
+        return suit;
+    }
+
+    public String getRank() {
+        return rank;
+    }
 }
