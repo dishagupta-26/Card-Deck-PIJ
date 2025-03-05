@@ -31,4 +31,9 @@ public class Card {
     public boolean sameRank(Card other) {
         return this.rank.equals(other.rank);
     }
+
+    // finding a specific card
+    public boolean findCard(String suit, String rank) {
+        return this.suit.equalsIgnoreCase(suit) && this.rank.equalsIgnoreCase(rank);
+    }
 }
