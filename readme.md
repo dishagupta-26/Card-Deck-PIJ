@@ -5,17 +5,6 @@ A menu-driven Java program that simulates a deck of 52 playing cards. Supports o
 
 ---
 
-## 📂 Project Structure
-```
-Card_Deck/
-│── Card.java       # Represents a single card
-│── Deck.java       # Manages the deck and its operations
-│── Main.java       # Menu-driven program
-│── README.md       # Documentation
-```
-
----
-
 ## 🚀 Features
 - **createDeck()** - Initializes a deck of 52 cards.
 - **printDeck()** - Displays all cards.
@@ -31,4 +20,4 @@ Card_Deck/
 ## ⚙️ Usage
 1. Clone the repository:
    ```sh
-   git clone https://github.com/dishagupta-26/Card-Deck-PIJ.git
+   git clone https://github.com/dishagupta-26/Card-Deck-PIJ.git 
