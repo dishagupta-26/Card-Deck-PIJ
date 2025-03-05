@@ -20,6 +20,30 @@ public class Main {
             System.out.print("Enter your choice: ");
             int choice = scanner.nextInt();
 
+            switch (choice) {
+                case 1:
+                    deck.printDeck();
+                    break;
+                case 2:
+                    deck.shuffleDeck();
+                    break;
+                case 3:
+                    deck.dealCards();
+                    break;
+                case 4:
+                    System.out.print("Enter suit: ");
+                    String suit = scanner.next();
+                    System.out.print("Enter rank: ");
+                    String rank = scanner.next();
+                    deck.findCard(suit, rank);
+                    break;
+                case 5:
+                    System.out.println("Exiting...");
+                    scanner.close();
+                    return;
+                default:
+                    System.out.println("Invalid choice!");
+            }
         }
     }
 }
