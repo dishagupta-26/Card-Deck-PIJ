@@ -29,4 +29,14 @@ public class Deck {
         Collections.shuffle(cards);
         System.out.println("Deck shuffled!");
     }
+
+    // dealing 5 random cards from the deck
+    public void dealCards() {
+        Random random = new Random();
+        System.out.println("Dealing 5 random cards:");
+        for (int i = 0; i < 5; i++) {
+            cards.get(random.nextInt(cards.size())).printCard();
+        }
+    }
+
 }
