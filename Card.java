@@ -16,4 +16,9 @@ public class Card {
     public String getRank() {
         return rank;
     }
+
+    // print card details
+    public void printCard() {
+        System.out.println(rank + " of " + suit);
+    }
 }
