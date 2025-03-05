@@ -23,4 +23,10 @@ public class Deck {
             }
         }
     }
+
+    // shuffle the deck randomly
+    public void shuffleDeck() {
+        Collections.shuffle(cards);
+        System.out.println("Deck shuffled!");
+    }
 }
