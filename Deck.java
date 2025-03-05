@@ -39,4 +39,15 @@ public class Deck {
         }
     }
 
+    // searching for a specific card
+    public void findCard(String suit, String rank) {
+        for (Card card : cards) {
+            if (card.findCard(suit, rank)) {
+                System.out.println("Card found!");
+                card.printCard();
+                return;
+            }
+        }
+        System.out.println("Card not found!");
+    }
 }
