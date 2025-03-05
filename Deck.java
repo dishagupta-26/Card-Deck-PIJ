@@ -24,6 +24,13 @@ public class Deck {
         }
     }
 
+    // print all the cards in the deck
+    public void printDeck() {
+        for (Card card : cards) {
+            card.printCard();
+        }
+    }
+
     // shuffle the deck randomly
     public void shuffleDeck() {
         Collections.shuffle(cards);
