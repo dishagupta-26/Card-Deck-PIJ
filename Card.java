@@ -26,4 +26,9 @@ public class Card {
     public boolean sameSuit(Card other) {
         return this.suit.equals(other.suit);
     }
+
+    // check if two cards belong to the same rank
+    public boolean sameRank(Card other) {
+        return this.rank.equals(other.rank);
+    }
 }
